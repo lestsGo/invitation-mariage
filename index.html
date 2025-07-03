@@ -637,138 +637,47 @@
                 </div>
                 
                 <div class="max-w-2xl mx-auto">
-                  <form id="rsvp-form" class="card p-8" name="rsvp" method="POST" action="https://formspree.io/f/myzjveyv" data-netlify="true" novalidate>
-    <input type="hidden" name="_replyto" value="djapadaniel20@gmail.com">
-    <div class="grid md:grid-cols-2 gap-6 mb-6">
-        <div>
-            <label for="firstName" class="block text-sm font-medium mb-2 flex items-center gap-2">
-                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                </svg>
-                Prénom *
-            </label>
-            <input type="text" id="firstName" name="firstName" required class="form-input" aria-describedby="firstName-error">
-            <div id="firstName-error" class="text-red-600 text-sm mt-1 hidden" role="alert"></div>
-        </div>
-        <div>
-            <label for="lastName" class="block text-sm font-medium mb-2 flex items-center gap-2">
-                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                </svg>
-                Nom *
-            </label>
-            <input type="text" id="lastName" name="lastName" required class="form-input" aria-describedby="lastName-error">
-            <div id="lastName-error" class="text-red-600 text-sm mt-1 hidden" role="alert"></div>
-        </div>
+                  <form id="rsvp-form" class="card p-8" name="rsvp" method="POST" action="https://formsubmit.co/danieldjapa20@gmail.com" novalidate>
+    <input type="hidden" name="_next" value="https://Desktop/t557/t2/espace Dev/invitation-mariage/merci"> <!-- Champ caché pour redirection -->
+    
+    <div class="mb-6">
+        <label for="name" class="block text-sm font-medium mb-2">Nom:</label>
+        <input type="text" id="name" name="name" required class="form-input" placeholder="Votre nom">
     </div>
     
     <div class="mb-6">
-        <label for="email" class="block text-sm font-medium mb-2 flex items-center gap-2">
-            <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-            </svg>
-            Email *
-        </label>
-        <input type="email" id="email" name="email" required class="form-input" aria-describedby="email-error">
-        <div id="email-error" class="text-red-600 text-sm mt-1 hidden" role="alert"></div>
+        <label for="email" class="block text-sm font-medium mb-2">Email:</label>
+        <input type="email" id="email" name="email" required class="form-input" placeholder="votre@email.com">
     </div>
     
-    <fieldset class="mb-6">
-        <legend class="text-lg font-medium mb-4">Serez-vous présent(e) ? *</legend>
-        <div class="space-y-3">
-            <label class="flex items-center space-x-3 cursor-pointer p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
-                <input type="radio" name="attendance" value="yes" required class="text-accent focus:ring-accent w-5 h-5">
-                <span class="flex items-center gap-2">
-                    <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                    </svg>
-                    Oui, je serai présent(e) avec plaisir
-                </span>
-            </label>
-         <label class="flex items-center space-x-3 cursor-pointer p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
-    <input type="radio" name="attendance" value="no" required class="text-accent focus:ring-accent w-5 h-5">
-    <span class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-red-600" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
-        </svg>
-        Non, je ne pourrai malheureusement pas être présent(e)
-    </span>
-</label>
-          </div>
-             <div id="attendance-error" class="text-red-600 text-sm mt-1 hidden" role="alert"></div>
-             </fieldset>
-                        
-                        <div id="attendance-details" class="hidden space-y-6">
-                            <div>
-                                <label for="guests" class="block text-sm font-medium mb-2 flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zM4 18v-4h3v-2c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v2h3v4H4z"/>
-                                    </svg>
-                                    Nombre d'accompagnants
-                                </label>
-                                <select id="guests" name="guests" class="form-input">
-                                    <option value="0">Aucun accompagnant</option>
-                                    <option value="1">1 accompagnant</option>
-                                    <option value="2">2 accompagnants</option>
-                                    <option value="3">3 accompagnants</option>
-                                </select>
-                            </div>
-                            
-                            <div>
-                                <label for="dietary" class="block text-sm font-medium mb-2 flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M18.06 22.99h1.66c.84 0 1.53-.64 1.63-1.46L23 5.05h-5V1h-1.97v4.05h-4.97l.3 2.34c1.71.47 3.31 1.32 4.27 2.26 1.44 1.42 2.43 2.89 2.43 5.29v8.05zM1 21.99V21h15.03v.99c0 .55-.45 1-1.01 1H2.01c-.56 0-1.01-.45-1.01-1z"/>
-                                    </svg>
-                                    Régimes alimentaires / Allergies
-                                </label>
-                                <textarea id="dietary" name="dietary" rows="3" 
-                                          class="form-input" 
-                                          placeholder="Végétarien, allergies, etc."></textarea>
-                            </div>
-                        </div>
-                        
-                        <div class="mb-6">
-                            <label for="message" class="block text-sm font-medium mb-2 flex items-center gap-2">
-                                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
-                                </svg>
-                                Message pour les mariés (optionnel)
-                            </label>
-                            <textarea id="message" name="message" rows="4" 
-                                      class="form-input" 
-                                      placeholder="Vos mots doux, conseils, anecdotes..."></textarea>
-                        </div>
-                        
-                        <button type="submit" id="submit-btn" 
-                                class="btn btn-primary w-full text-lg py-4 justify-center">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-                            </svg>
-                            <span>Confirmer ma réponse</span>
-                        </button>
-                        
-                        <div class="mt-6 text-center">
-                            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">
-                                Une question ? Contactez-nous :
-                            </p>
-                            <div class="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-4">
-                                <a href="mailto:danieldjapa20@gmail.com" 
-                                   class="text-accent hover:text-primary transition-colors duration-200 inline-flex items-center gap-1">
-                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                                    </svg>
-                                    danieldjapa20@gmail.com
-                                </a>
-                                <a href="tel:+237658090517" 
-                                   class="text-accent hover:text-primary transition-colors duration-200 inline-flex items-center gap-1">
-                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-                                    </svg>
-                                    658090517
-                                </a>
-                            </div>
-                        </div>
-                    </form>
+    <div class="mb-6">
+        <label for="diet" class="block text-sm font-medium mb-2">Préférences alimentaires:</label>
+        <textarea id="diet" name="diet" rows="2" class="form-input" placeholder="Végétarien, allergies, etc."></textarea>
+    </div>
+    
+    <div class="mb-6">
+        <label for="message" class="block text-sm font-medium mb-2 flex items-center gap-2">
+            Message pour les mariés (optionnel)
+        </label>
+        <textarea id="message" name="message" rows="4" class="form-input" placeholder="Vos mots doux, conseils, anecdotes..."></textarea>
+    </div>
+    
+    <button type="submit" id="submit-btn" class="btn btn-primary w-full text-lg py-4 justify-center">
+        <span>Confirmer ma réponse</span>
+    </button>
+    
+    <div class="mt-6 text-center">
+        <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Une question ? Contactez-nous :</p>
+        <div class="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-4">
+            <a href="mailto:danieldjapa20@gmail.com" class="text-accent hover:text-primary transition-colors duration-200 inline-flex items-center gap-1">
+                danieldjapa20@gmail.com
+            </a>
+            <a href="tel:+237658090517" class="text-accent hover:text-primary transition-colors duration-200 inline-flex items-center gap-1">
+                658090517
+            </a>
+        </div>
+    </div>
+</form>
                 </div>
             </div>
         </section>
