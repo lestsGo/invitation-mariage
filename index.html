@@ -1467,62 +1467,52 @@ async submitForm() {
         
         // Main application initialization
 const App = {
-    async init() {
-        try {
-            // Initialize core features
-            DarkMode.init();
-            ReducedMotion.init();
-            PerformanceMonitor.init();
-            
-            // Initialize UI components
-            Navigation.init();
-            Countdown.init();
-            QRModal.init();
-            FormManager.init();
-            
-            // Hide loader after initialization
-            setTimeout(() => LoadingManager.hide(), 1000);
-            
-            console.log('Wedding app initialized successfully');
-            
-        } catch (error) {
-            console.error('Error initializing app:', error);
-            LoadingManager.hide();
-        }
-    },
-    
-    destroy() {
-        // Cleanup
-        if (State.countdownInterval) {
-            clearInterval(State.countdownInterval);
-        }
-    }
-};
-
-// Initialize when DOM is ready
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => App.init());
-} else {
-    App.init();
-}
-
-// Cleanup on page unload
-window.addEventListener('beforeunload', () => App.destroy());
-                destroy() {
-                    // Cleanup
-                    if (State.countdownInterval) {
-                        clearInterval(State.countdownInterval);
-                    }
-                }
-            };
+            async init() {
+                try {
+                    // Initialize core features
+                    DarkMode.init();
+                    ReducedMotion.init();
+                    PerformanceMonitor.init();
                     
-            // Cleanup on page unload
-            window.addEventListener('beforeunload', () => App.destroy());
+                    // Initialize UI components
+                    Navigation.init();
+                    Countdown.init();
+                    QRModal.init();
+                    FormManager.init();
+                    
+                    // Hide loader after initialization
+                    setTimeout(() => LoadingManager.hide(), 1000);
+                    
+                    console.log('Wedding app initialized successfully');
+                    
+                } catch (error) {
+                    console.error('Error initializing app:', error);
+                    LoadingManager.hide();
+                }
+            },
             
-            // Expose App for debugging
-            window.WeddingApp = App;
-            
-        })();
+            destroy() {
+                // Cleanup
+                if (State.countdownInterval) {
+                    clearInterval(State.countdownInterval);
+                }
+            }
+        };
+        
+        // Initialize when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => App.init());
+        } else {
+            App.init();
+        }
+        
+        // Cleanup on page unload
+        window.addEventListener('beforeunload', () => App.destroy());
+        
+        // Expose App for debugging
+        window.WeddingApp = App;
+        
+    })();
     </script>
 </body>
 </html>
