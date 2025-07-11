@@ -3,27 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/Desktop/t557/t2/espace DEV
-/invitation-mariage/mariage.css" rel="stylesheet">
-    <title>Marie & Pierre - Mariage 15 Juillet 2025</title>
-    <meta name="description" content="Célébrez avec nous l'union de Marie et Pierre le 15 Juillet 2025 a l'hotel de ville. RSVP, programme, lieu et informations pratiques.">
+    
+    <!-- SEO et métadonnées optimisées -->
+    <title>Marie & Pierre - Mariage 15 Juillet 2025 | Hôtel de ville de Yaoundé</title>
+    <meta name="description" content="Célébrez avec nous l'union de Marie et Pierre le 15 Juillet 2025 à l'hôtel de ville de Yaoundé. RSVP, programme, lieu et informations pratiques.">
+    <meta name="keywords" content="mariage, Marie, Pierre, juillet 2025, Yaoundé, invitation, RSVP">
+    <meta name="author" content="Marie & Pierre">
     <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://marie-pierre-mariage.com/">
+    <meta property="og:title" content="Marie & Pierre - Mariage 15 Juillet 2025">
+    <meta property="og:description" content="Célébrez avec nous l'union de Marie et Pierre le 15 Juillet 2025">
+    <meta property="og:image" content="./assets/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://marie-pierre-mariage.com/">
+    <meta property="twitter:title" content="Marie & Pierre - Mariage 15 Juillet 2025">
+    <meta property="twitter:description" content="Célébrez avec nous l'union de Marie et Pierre le 15 Juillet 2025">
+    <meta property="twitter:image" content="./assets/images/og-image.jpg">
+    
+    <!-- Sécurité -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://formspree.io; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.tailwindcss.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://api.qrserver.com; connect-src 'self' https://formspree.io;">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
     
     <!-- Preconnect pour optimiser les performances -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://api.qrserver.com">
+    <link rel="preconnect" href="https://formspree.io">
     
     <!-- DNS prefetch pour les CDN -->
     <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
     
-    <!-- Fonts optimisées -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Preload des ressources critiques -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700&family=Inter:wght@300;400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700&family=Inter:wght@300;400;500;600&display=swap"></noscript>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Configuration Tailwind optimisée -->
+    <!-- Configuration Tailwind avec variables CSS -->
     <script>
         tailwind.config = {
             theme: {
@@ -79,14 +106,315 @@
         }
     </script>
     
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Mariage Marie & Pierre",
+        "description": "Célébration du mariage de Marie Dubois et Pierre Martin",
+        "startDate": "2025-07-15T15:30:00+01:00",
+        "endDate": "2025-07-16T02:00:00+01:00",
+        "location": {
+            "@type": "Place",
+            "name": "Hôtel de ville de Yaoundé",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Yaoundé",
+                "addressCountry": "CM"
+            }
+        },
+        "organizer": {
+            "@type": "Person",
+            "name": "Marie Dubois & Pierre Martin"
+        },
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+    }
+    </script>
     
+    <!-- Styles personnalisés avec variables CSS -->
+    <style>
+        :root {
+            --color-primary: #2C3E50;
+            --color-accent: #D4AF37;
+            --color-rose: #E8B4B8;
+            --color-sage: #8FA68E;
+            --color-cream: #FAF7F2;
+            --font-primary: 'Playfair Display', serif;
+            --font-secondary: 'Inter', sans-serif;
+            --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --border-radius: 0.5rem;
+            --transition: all 0.3s ease;
+        }
+        
+        .reduced-motion * {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+        }
+        
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: var(--color-primary);
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            z-index: 100;
+        }
+        
+        .skip-link:focus {
+            top: 6px;
+        }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(44, 62, 80, 0.8), rgba(212, 175, 55, 0.6)),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23FAF7F2" width="1200" height="800"/><path fill="%23E8B4B8" opacity="0.5" d="M0,800L48,766.7C96,733,192,667,288,633.3C384,600,480,600,576,616.7C672,633,768,667,864,658.3C960,650,1056,600,1152,575C1248,550,1344,550,1392,550L1440,550L1440,800L1392,800C1344,800,1248,800,1152,800C1056,800,960,800,864,800C768,800,672,800,576,800C480,800,384,800,288,800C192,800,96,800,48,800L0,800Z"/></svg>');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            .hero-bg {
+                background-attachment: scroll;
+            }
+        }
+        
+        .hero-content {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .nav {
+            background: rgba(250, 247, 242, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            transition: var(--transition);
+        }
+        
+        .dark .nav {
+            background: rgba(17, 24, 39, 0.95);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .card {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-card);
+            transition: var(--transition);
+        }
+        
+        .card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-2px);
+        }
+        
+        .dark .card {
+            background: rgb(31, 41, 55);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-family: var(--font-secondary);
+        }
+        
+        .btn-primary {
+            background: var(--color-accent);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #B8941F;
+            transform: translateY(-1px);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            color: var(--color-primary);
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #e5e7eb;
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            transition: var(--transition);
+            font-family: var(--font-secondary);
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: var(--color-accent);
+            box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+        }
+        
+        .dark .form-input {
+            background: rgb(31, 41, 55);
+            border-color: rgb(75, 85, 99);
+            color: white;
+        }
+        
+        .timeline {
+            position: relative;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 2rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--color-accent);
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-left: 4rem;
+        }
+        
+        .timeline-dot {
+            position: absolute;
+            left: 1.25rem;
+            top: 1.5rem;
+            width: 1rem;
+            height: 1rem;
+            background: var(--color-accent);
+            border-radius: 50%;
+            border: 3px solid white;
+            z-index: 1;
+        }
+        
+        .modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 50;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+        }
+        
+        .modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .modal-content {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            max-width: 90vw;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        
+        .dark .modal-content {
+            background: rgb(31, 41, 55);
+        }
+        
+        .loading {
+            width: 1.5rem;
+            height: 1.5rem;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .toast {
+            padding: 1rem 1.5rem;
+            margin: 0.5rem;
+            border-radius: var(--border-radius);
+            color: white;
+            font-weight: 500;
+            box-shadow: var(--shadow-lg);
+            transform: translateX(100%);
+            transition: var(--transition);
+        }
+        
+        .toast.show {
+            transform: translateX(0);
+        }
+        
+        .toast.success {
+            background: #10b981;
+        }
+        
+        .toast.error {
+            background: #ef4444;
+        }
+        
+        .toast.info {
+            background: #3b82f6;
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 1rem;
+            }
+            
+            .timeline-item {
+                padding-left: 2.5rem;
+            }
+            
+            .timeline-dot {
+                left: 0.75rem;
+            }
+        }
+    </style>
 </head>
+
 <body class="font-inter bg-cream dark:bg-gray-900 text-gray-800 dark:text-gray-200">
     <!-- Skip link pour l'accessibilité -->
     <a href="#main-content" class="skip-link">Aller au contenu principal</a>
     
-    <!-- Loading indicator optimisé -->
-    <div id="loading-indicator" class="fixed inset-0 bg-cream dark:bg-gray-900 z-50 flex items-center justify-center">
+    <!-- Loading indicator -->
+    <div id="loading-indicator" class="fixed inset-0 bg-cream dark:bg-gray-900 z-50 flex items-center justify-center" aria-hidden="true">
         <div class="text-center animate-fade-in">
             <div class="loading mb-4 w-12 h-12 border-4 border-accent"></div>
             <p class="text-lg font-playfair text-primary dark:text-accent">Chargement...</p>
@@ -94,39 +422,39 @@
     </div>
 
     <!-- Toast container -->
-    <div id="toast-container" aria-live="polite"></div>
+    <div id="toast-container" aria-live="polite" class="fixed top-4 right-4 z-50"></div>
 
     <!-- QR Code Modal -->
     <div id="qr-modal" class="modal" role="dialog" aria-labelledby="qr-modal-title" aria-hidden="true">
         <div class="modal-content p-8 m-4 text-center max-w-lg">
-            <button id="close-qr-modal" class="absolute top-4 right-4 text-gray-600 hover:text-gray-900 text-3xl w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors" aria-label="Fermer">
+            <button id="close-qr-modal" class="absolute top-4 right-4 text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 text-3xl w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors" aria-label="Fermer la modale">
                 ×
             </button>
-            <h2 id="qr-modal-title" class="text-3xl font-playfair font-bold text-gray-900 mb-6 flex items-center justify-center gap-3">
-                <svg class="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+            <h2 id="qr-modal-title" class="text-3xl font-playfair font-bold text-gray-900 dark:text-gray-100 mb-6 flex items-center justify-center gap-3">
+                <svg class="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M3 11h8V3H3v8zm2-6h4v4H5V5zM3 21h8v-8H3v8zm2-6h4v4H5v-4zM13 3v8h8V3h-8zm6 6h-4V5h4v4zM19 13h2v2h-2zM13 13h2v2h-2zM15 15h2v2h-2zM13 17h2v2h-2zM15 19h2v2h-2zM17 17h2v2h-2zM17 13h2v2h-2zM19 15h2v2h-2z"/>
                 </svg>
                 Partager notre site
             </h2>
-            <p class="text-lg text-gray-700 mb-6">
+            <p class="text-lg text-gray-700 dark:text-gray-300 mb-6">
                 Scannez ce QR code pour partager notre invitation de mariage
             </p>
-            <div class="flex justify-center mb-6 p-4 bg-gray-50 rounded-lg">
-                <img id="qr-code-img" src="" alt="QR Code du site de mariage" class="w-64 h-64 border-4 border-pink-300 rounded-lg shadow-md">
+            <div class="flex justify-center mb-6 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <img id="qr-code-img" src="" alt="QR Code du site de mariage" class="w-64 h-64 border-4 border-pink-300 rounded-lg shadow-md" loading="lazy">
             </div>
-            <p class="text-sm text-gray-500 break-words">
+            <p class="text-sm text-gray-500 dark:text-gray-400 break-words">
                 <span id="website-url"></span>
             </p>
         </div>
     </div>
 
-    <!-- Navigation améliorée -->
+    <!-- Navigation -->
     <header class="nav fixed top-0 w-full z-40">
         <nav class="container mx-auto px-4 py-4" role="navigation" aria-label="Navigation principale">
             <div class="flex justify-between items-center">
                 <div class="flex items-center space-x-3">
                     <div class="w-10 h-10 bg-accent rounded-full flex items-center justify-center">
-                        <span class="text-white font-bold text-lg">M&P</span>
+                        <span class="text-white font-bold text-lg" aria-hidden="true">M&P</span>
                     </div>
                     <span class="text-xl font-playfair font-semibold">Marie & Pierre</span>
                 </div>
@@ -141,14 +469,14 @@
                 </div>
                 
                 <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" 
-                        aria-label="Ouvrir le menu de navigation" aria-expanded="false">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
             </div>
             
-            <!-- Mobile menu amélioré -->
+            <!-- Mobile menu -->
             <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 space-y-3" role="menu">
                 <a href="#accueil" class="block py-2 hover:text-accent transition-colors duration-200" role="menuitem">Accueil</a>
                 <a href="#histoire" class="block py-2 hover:text-accent transition-colors duration-200" role="menuitem">Notre Histoire</a>
@@ -158,15 +486,10 @@
                 <a href="#rsvp" class="btn btn-primary inline-block mt-2" role="menuitem">RSVP</a>
             </div>
         </nav>
-        <audio autoplay loop hidden>
-  <source src="/Desktop/t557/t2/espace DEV/invitation-mariage/Asake - Lonely At The Top LIVE ft The Compozers.mp3" type="audio/mpeg">
-  Votre navigateur ne supporte pas l'audio.
-</audio>
-
     </header>
 
     <main id="main-content">
-        <!-- Hero Section améliorée -->
+        <!-- Hero Section -->
         <section id="accueil" class="hero-bg flex items-center justify-center text-white relative">
             <div class="text-center px-4 max-w-4xl mx-auto">
                 <div class="hero-content rounded-xl p-8 animate-fade-in-up">
@@ -180,48 +503,10 @@
                     
                     <h1 class="text-4xl md:text-6xl lg:text-7xl font-playfair font-bold mb-6">
                         <span class="block">Marie</span>
-                        <span class="text-accent text-2xl md:text-4xl animate-pulse-slow">&</span>
+                        <span class="text-accent text-2xl md:text-4xl animate-pulse-slow" aria-hidden="true">&</span>
                         <span class="block">Pierre</span>
                     </h1>
-                    <!-- Section Photos de Mariage -->
-<section id="photos" class="py-20 px-4 bg-gray-50 dark:bg-gray-800" style="background-image: url('/Desktop/t557/t2/espace DEV/invitation-mariage/t.jpg'); background-size: cover;">
-    <div class="container mx-auto">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-playfair text-primary dark:text-accent mb-6">
-                Photos de Mariage
-            </h2>
-            <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                Des souvenirs inoubliables de notre grand jour
-            </p>
-        </div>
-        
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="photo-card bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
-                <img src="/Desktop/t557/t2/espace DEV/invitation-mariage/a.jpg" alt="Photo des mariés" class="w-full h-48 object-cover">
-                <div class="p-4">
-                    <h3 class="text-lg font-semibold">Marie et Pierre</h3>
-                    <p class="text-gray-600 dark:text-gray-400">Notre moment spécial</p>
-                </div>
-            </div>
-            
-            <div class="photo-card bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
-                <img src="/Desktop/t557/t2/espace DEV/invitation-mariage/f.jpg" alt="Cérémonie" class="w-full h-48 object-cover">
-                <div class="p-4">
-                    <h3 class="text-lg font-semibold">Cérémonie</h3>
-                    <p class="text-gray-600 dark:text-gray-400">Échange des vœux</p>
-                </div>
-            </div>
-            
-            <div class="photo-card bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
-                <img src="/Desktop/t557/t2/espace DEV/invitation-mariage/salle.jpg" alt="Réception" class="w-full h-48 object-cover">
-                <div class="p-4">
-                    <h3 class="text-lg font-semibold">Réception</h3>
-                    <p class="text-gray-600 dark:text-gray-400">Fête et joie partagée</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+                    
                     <p class="text-xl md:text-2xl mb-8 font-light">
                         L'amour est la poésie des sens
                     </p>
@@ -232,36 +517,36 @@
                                 <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11z"/>
                                 </svg>
-                                15 Juillet 2025
+                                <time datetime="2025-07-15">15 Juillet 2025</time>
                             </span>
-                            <span class="hidden md:inline text-accent">•</span>
+                            <span class="hidden md:inline text-accent" aria-hidden="true">•</span>
                             <span class="flex items-center">
                                 <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                                 </svg>
-                               hotel de ville de yaounde
+                                Hôtel de ville de Yaoundé
                             </span>
                         </div>
                     </div>
                     
-                    <!-- Compte à rebours amélioré -->
+                    <!-- Compte à rebours -->
                     <div class="bg-white/20 rounded-xl p-6 mb-12 inline-block backdrop-blur-md">
                         <p class="text-sm uppercase tracking-wide mb-4 text-accent">Compte à rebours</p>
-                        <div id="countdown" class="grid grid-cols-4 gap-4 text-center">
+                        <div id="countdown" class="grid grid-cols-4 gap-4 text-center" aria-live="polite" aria-label="Temps restant jusqu'au mariage">
                             <div class="countdown-item">
-                                <div id="days" class="text-2xl md:text-3xl font-bold">10</div>
+                                <div id="days" class="text-2xl md:text-3xl font-bold">0</div>
                                 <div class="text-xs uppercase">Jours</div>
                             </div>
                             <div class="countdown-item">
-                                <div id="hours" class="text-2xl md:text-3xl font-bold">17</div>
+                                <div id="hours" class="text-2xl md:text-3xl font-bold">0</div>
                                 <div class="text-xs uppercase">Heures</div>
                             </div>
                             <div class="countdown-item">
-                                <div id="minutes" class="text-2xl md:text-3xl font-bold">30</div>
+                                <div id="minutes" class="text-2xl md:text-3xl font-bold">0</div>
                                 <div class="text-xs uppercase">Minutes</div>
                             </div>
                             <div class="countdown-item">
-                                <div id="seconds" class="text-2xl md:text-3xl font-bold">00</div>
+                                <div id="seconds" class="text-2xl md:text-3xl font-bold">0</div>
                                 <div class="text-xs uppercase">Secondes</div>
                             </div>
                         </div>
@@ -269,13 +554,13 @@
                     
                     <div class="flex flex-col sm:flex-row gap-4 justify-center">
                         <a href="#invitation" class="btn btn-primary text-lg">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                             </svg>
                             Découvrir notre invitation
                         </a>
                         <button id="show-qr-btn" class="btn btn-secondary text-lg">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M3 11h8V3H3v8zm2-6h4v4H5V5zM3 21h8v-8H3v8zm2-6h4v4H5v-4zM13 3v8h8V3h-8zm6 6h-4V5h4v4z"/>
                             </svg>
                             Partager (QR Code)
@@ -285,7 +570,7 @@
             </div>
         </section>
 
-        <!-- Section Notre Histoire (nouvelle) -->
+        <!-- Section Notre Histoire -->
         <section id="histoire" class="py-20 px-4 bg-white dark:bg-gray-900">
             <div class="container mx-auto max-w-4xl">
                 <div class="text-center mb-16">
@@ -295,11 +580,14 @@
                     <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
                         Une belle histoire d'amour qui commence il y a cinq ans...
                     </p>
-                    <img src="/Desktop/t557/t2/espace DEV/invitation-mariage/t2.jpg" alt="Fleurs et bagues" class="mx-auto my-6" style="max-width: 100%; height: auto;">
+                     <img src="/invitation-mariage/t2.jpg" alt="Fleurs et bagues" class="mx-auto my-6" style="max-width: 100%; height: auto;">
+                    <div class="mx-auto my-6 w-full max-w-md h-64 bg-gradient-to-br from-rose to-accent/20 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500 dark:text-gray-400">Photo des mariés</span>
+                    </div>
                 </div>
                 
                 <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
-                    <div class="card p-8">
+                    <article class="card p-8">
                         <h3 class="text-2xl font-playfair font-bold text-primary dark:text-accent mb-4">
                             La Rencontre
                         </h3>
@@ -311,9 +599,9 @@
                             Une conversation qui devait durer quelques minutes s'est prolongée jusqu'au 
                             coucher du soleil. Nous savions déjà que c'était le début de quelque chose de spécial.
                         </p>
-                    </div>
+                    </article>
                     
-                    <div class="card p-8">
+                    <article class="card p-8">
                         <h3 class="text-2xl font-playfair font-bold text-primary dark:text-accent mb-4">
                             La Demande
                         </h3>
@@ -325,26 +613,79 @@
                             Les mots "Veux-tu m'épouser ?" résonnent encore dans nos cœurs. 
                             La réponse était évidente : un "Oui" retentissant rempli de joie et d'amour.
                         </p>
-                    </div>
+                    </article>
                 </div>
                 
                 <div class="text-center">
-                    <div class="card p-8 bg-gradient-to-r from-rose-50 to-purple-50 dark:from-gray-800 dark:to-gray-700">
+                    <article class="card p-8 bg-gradient-to-r from-rose-50 to-purple-50 dark:from-gray-800 dark:to-gray-700">
                         <h3 class="text-2xl font-playfair font-bold text-primary dark:text-accent mb-4">
                             Et maintenant...
                         </h3>
                         <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
                             Nous nous apprêtons à dire "Oui" devant nos proches, dans le cadre somptueux 
-                            du Château de Versailles. Nous avons hâte de partager ce moment unique avec vous, 
+                            de l'Hôtel de ville de Yaoundé. Nous avons hâte de partager ce moment unique avec vous, 
                             nos familles et amis les plus chers.
                         </p>
-                    </div>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <!-- Section Invitation (améliorée) -->
-        <section id="invitation" class="py-20 px-4 bg-gray-50 dark:bg-gray-800">
+        <!-- Section Photos de Mariage -->
+        <section id="photos" class="py-20 px-4 bg-gray-50 dark:bg-gray-800">
+            <div class="container mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-playfair text-primary dark:text-accent mb-6">
+                        Photos de Mariage
+                    </h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+                        Des souvenirs inoubliables de notre grand jour
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <article class="card overflow-hidden">
+                        <img src="/invitation-mariage/a.jpg" alt="Photo des mariés" class="w-full h-48 object-cover">
+                        
+                        <div class="w-full h-48 bg-gradient-to-br from-rose to-accent/20 flex items-center justify-center">
+                            <span class="text-gray-500">Photo des mariés</span>
+                        </div>
+                        <div class="p-4">
+                                                             
+                             <h3 class="text-lg font-semibold mb-2">Marie et Pierre</h3>
+                             <p class="text-gray-600 dark:text-gray-400">Notre moment spécial</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card overflow-hidden">
+                         <img src="/invitation-mariage/f.jpg" alt="Cérémonie" class="w-full h-48 object-cover">
+                
+                        <div class="w-full h-48 bg-gradient-to-br from-sage to-rose/20 flex items-center justify-center">
+                            <span class="text-gray-500">Cérémonie</span>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold mb-2">Cérémonie</h3>
+                            <p class="text-gray-600 dark:text-gray-400">Échange des vœux</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card overflow-hidden">
+                                <img src="/invitation-mariage/salle.jpg" alt="Réception" class="w-full h-48 object-cover">
+                        
+                        <div class="w-full h-48 bg-gradient-to-br from-accent to-sage/20 flex items-center justify-center">
+                            <span class="text-gray-500">Réception</span>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold mb-2">Réception</h3>
+                            <p class="text-gray-600 dark:text-gray-400">Fête et joie partagée</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Invitation -->
+        <section id="invitation" class="py-20 px-4 bg-white dark:bg-gray-900">
             <div class="container mx-auto">
                 <div class="text-center mb-16">
                     <h2 class="text-4xl md:text-5xl font-playfair text-primary dark:text-accent mb-6">
@@ -353,14 +694,17 @@
                     <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
                         Nous avons l'immense joie de vous inviter à célébrer avec nous le plus beau jour de notre vie
                     </p>
-                    <img src="/Desktop/t557/t2/espace DEV/invitation-mariage/t1.jpg" alt="Table décorée" class="mx-auto my-6" style="max-width: 100%; height: auto;">
+                     <img src="/invitation-mariage/t1.jpg" alt="Table décorée" class="mx-auto my-6" style="max-width: 100%; height: auto;">
+                    <div class="mx-auto my-6 w-full max-w-md h-64 bg-gradient-to-br from-accent to-rose/20 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500 dark:text-gray-400">Table décorée</span>
+                    </div>
                 </div>
                 
                 <div class="max-w-4xl mx-auto">
                     <div class="card p-8 md:p-12 relative overflow-hidden">
                         <!-- Décorations -->
-                        <div class="absolute top-0 left-0 w-32 h-32 bg-gradient-to-br from-accent/10 to-transparent rounded-full -translate-x-16 -translate-y-16"></div>
-                        <div class="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-tl from-accent/10 to-transparent rounded-full translate-x-16 translate-y-16"></div>
+                        <div class="absolute top-0 left-0 w-32 h-32 bg-gradient-to-br from-accent/10 to-transparent rounded-full -translate-x-16 -translate-y-16" aria-hidden="true"></div>
+                        <div class="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-tl from-accent/10 to-transparent rounded-full translate-x-16 translate-y-16" aria-hidden="true"></div>
                         
                         <div class="relative z-10">
                             <div class="text-center mb-12">
@@ -381,7 +725,7 @@
                                 <h4 class="text-3xl md:text-5xl font-playfair text-primary dark:text-accent mb-4">
                                     Marie Dubois
                                 </h4>
-                                <p class="text-2xl text-accent font-playfair mb-4">&</p>
+                                <p class="text-2xl text-accent font-playfair mb-4" aria-hidden="true">&</p>
                                 <h4 class="text-3xl md:text-5xl font-playfair text-primary dark:text-accent">
                                     Pierre Martin
                                 </h4>
@@ -390,34 +734,44 @@
                             <div class="grid md:grid-cols-2 gap-8 mb-12">
                                 <div class="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-xl card">
                                     <div class="w-12 h-12 mx-auto mb-4 bg-accent/10 rounded-full flex items-center justify-center">
-                                        <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                        <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                             <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                                         </svg>
                                     </div>
                                     <h5 class="text-xl font-semibold mb-3">Cérémonie</h5>
-                                    <p class="text-gray-600 dark:text-gray-400 mb-2">Samedi 15 Juin 2025</p>
-                                    <p class="text-gray-600 dark:text-gray-400 mb-2">15h30</p>
-                                    <p class="text-sm text-gray-500">Marie de yaounde I</p>
+                                    <p class="text-gray-600 dark:text-gray-400 mb-2">
+                                        <time datetime="2025-07-15">Samedi 15 Juillet 2025</time>
+                                    </p>
+                                    <p class="text-gray-600 dark:text-gray-400 mb-2">
+                                        <time datetime="15:30">15h30</time>
+                                    </p>
+                                    <p class="text-sm text-gray-500">Mairie de Yaoundé I</p>
                                 </div>
                                 
                                 <div class="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-xl card">
                                     <div class="w-12 h-12 mx-auto mb-4 bg-accent/10 rounded-full flex items-center justify-center">
-                                        <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                        <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                             <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2z"/>
                                         </svg>
                                     </div>
                                     <h5 class="text-xl font-semibold mb-3">Réception</h5>
-                                    <p class="text-gray-600 dark:text-gray-400 mb-2">Samedi 15 Juillet 2025</p>
-                                    <p class="text-gray-600 dark:text-gray-400 mb-2">18h00 - 02h00</p>
-                                    <p class="text-sm text-gray-500">esplanade de l'hotel de ville </p>
+                                    <p class="text-gray-600 dark:text-gray-400 mb-2">
+                                        <time datetime="2025-07-15">Samedi 15 Juillet 2025</time>
+                                    </p>
+                                    <p class="text-gray-600 dark:text-gray-400 mb-2">
+                                        <time datetime="18:00">18h00</time> - <time datetime="02:00">02h00</time>
+                                    </p>
+                                    <p class="text-sm text-gray-500">Esplanade de l'hôtel de ville</p>
                                 </div>
                             </div>
                             
                             <div class="text-center border-t border-gray-200 dark:border-gray-700 pt-8">
-                                <h5 class="text-xl font-playfair mb-4">hotel de ville</h5>
-                                <p class="text-gray-600 dark:text-gray-400 mb-2">hotel de ville, yaounde</p>
+                                <h5 class="text-xl font-playfair mb-4">Hôtel de ville</h5>
+                                <address class="text-gray-600 dark:text-gray-400 mb-2 not-italic">
+                                    Hôtel de ville, Yaoundé
+                                </address>
                                 <p class="text-sm text-accent font-medium">
-                                    Merci de confirmer votre présence avant le 1er mai 2024
+                                    Merci de confirmer votre présence avant le <time datetime="2024-05-01">1er mai 2024</time>
                                 </p>
                             </div>
                         </div>
@@ -426,8 +780,8 @@
             </div>
         </section>
 
-        <!-- Programme Section (existante, légèrement améliorée) -->
-        <section id="programme" class="py-20 px-4 bg-white dark:bg-gray-900">
+        <!-- Programme Section -->
+        <section id="programme" class="py-20 px-4 bg-gray-50 dark:bg-gray-800">
             <div class="container mx-auto">
                 <div class="text-center mb-16">
                     <h2 class="text-4xl md:text-5xl font-playfair text-primary dark:text-accent mb-6">
@@ -441,39 +795,39 @@
                 <div class="max-w-4xl mx-auto">
                     <div class="timeline">
                         <div class="space-y-12">
-                            <div class="timeline-item">
+                            <article class="timeline-item">
                                 <div class="timeline-dot"></div>
                                 <div class="card p-6">
                                     <div class="flex items-center mb-3">
-                                        <span class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3">14h30</span>
+                                        <time class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3" datetime="14:30">14h30</time>
                                         <h3 class="text-xl font-semibold">Accueil des invités</h3>
                                     </div>
                                     <p class="text-gray-600 dark:text-gray-400">
-                                        Cocktail de bienvenue dans les jardins à la française du château. 
+                                        Cocktail de bienvenue dans les jardins. 
                                         Ambiance musicale avec duo violon-piano.
                                     </p>
                                 </div>
-                            </div>
+                            </article>
                             
-                            <div class="timeline-item">
+                            <article class="timeline-item">
                                 <div class="timeline-dot"></div>
                                 <div class="card p-6">
                                     <div class="flex items-center mb-3">
-                                        <span class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3">15h30</span>
+                                        <time class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3" datetime="15:30">15h30</time>
                                         <h3 class="text-xl font-semibold">Cérémonie laïque</h3>
                                     </div>
                                     <p class="text-gray-600 dark:text-gray-400">
-                                        Échange des vœux dans la Grande Galerie des Glaces. 
+                                        Échange des vœux dans la grande salle. 
                                         Cérémonie intimiste avec lectures par nos proches.
                                     </p>
                                 </div>
-                            </div>
+                            </article>
                             
-                            <div class="timeline-item">
+                            <article class="timeline-item">
                                 <div class="timeline-dot"></div>
                                 <div class="card p-6">
                                     <div class="flex items-center mb-3">
-                                        <span class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3">16h30</span>
+                                        <time class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3" datetime="16:30">16h30</time>
                                         <h3 class="text-xl font-semibold">Séance photos</h3>
                                     </div>
                                     <p class="text-gray-600 dark:text-gray-400">
@@ -481,54 +835,54 @@
                                         Moment privilégié pour les félicitations.
                                     </p>
                                 </div>
-                            </div>
+                            </article>
                             
-                            <div class="timeline-item">
+                            <article class="timeline-item">
                                 <div class="timeline-dot"></div>
                                 <div class="card p-6">
                                     <div class="flex items-center mb-3">
-                                        <span class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3">18h00</span>
+                                        <time class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3" datetime="18:00">18h00</time>
                                         <h3 class="text-xl font-semibold">Cocktail dînatoire</h3>
                                     </div>
                                     <p class="text-gray-600 dark:text-gray-400">
                                         Buffet gastronomique avec mets raffinés et accords mets-vins d'exception.
                                     </p>
                                 </div>
-                            </div>
+                            </article>
                             
-                            <div class="timeline-item">
+                            <article class="timeline-item">
                                 <div class="timeline-dot"></div>
                                 <div class="card p-6">
                                     <div class="flex items-center mb-3">
-                                        <span class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3">21h00</span>
+                                        <time class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3" datetime="21:00">21h00</time>
                                         <h3 class="text-xl font-semibold">Ouverture du bal</h3>
                                     </div>
                                     <p class="text-gray-600 dark:text-gray-400">
                                         Première danse des mariés et soirée dansante animée par DJ et groupe de jazz.
                                     </p>
                                 </div>
-                            </div>
+                            </article>
                             
-                            <div class="timeline-item">
+                            <article class="timeline-item">
                                 <div class="timeline-dot"></div>
                                 <div class="card p-6">
                                     <div class="flex items-center mb-3">
-                                        <span class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3">01h00</span>
+                                        <time class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium mr-3" datetime="01:00">01h00</time>
                                         <h3 class="text-xl font-semibold">Buffet de minuit</h3>
                                     </div>
                                     <p class="text-gray-600 dark:text-gray-400">
                                         Spécialités locales et pâtisseries pour les noctambules jusqu'aux premières lueurs de l'aube.
                                     </p>
                                 </div>
-                            </div>
+                            </article>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Lieu Section (existante) -->
-        <section id="lieu" class="py-20 px-4 bg-gray-50 dark:bg-gray-800">
+        <!-- Lieu Section -->
+        <section id="lieu" class="py-20 px-4 bg-white dark:bg-gray-900">
             <div class="container mx-auto">
                 <div class="text-center mb-16">
                     <h2 class="text-4xl md:text-5xl font-playfair text-primary dark:text-accent mb-6">
@@ -543,10 +897,10 @@
                     <div class="grid lg:grid-cols-2 gap-12 items-center">
                         <div>
                             <h3 class="text-3xl font-playfair text-primary dark:text-accent mb-6">
-                                hotel de ville 
+                                Hôtel de ville de Yaoundé
                             </h3>
                             <p class="text-lg text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                                Symbole de l'art de vivre de facon traditionnel, l'hotel de ville de yaounde nous accueillera 
+                                Symbole de l'art de vivre traditionnel, l'hôtel de ville de Yaoundé nous accueillera 
                                 dans ses salons prestigieux et ses jardins somptueux. Un lieu magique où l'histoire 
                                 et la beauté se rencontrent.
                             </p>
@@ -558,7 +912,7 @@
                                     </svg>
                                     <div>
                                         <p class="font-medium">Adresse</p>
-                                        <p class="text-sm text-gray-600 dark:text-gray-400">hotel de ville, yaounde</p>
+                                        <address class="text-sm text-gray-600 dark:text-gray-400 not-italic">Hôtel de ville, Yaoundé</address>
                                     </div>
                                 </div>
                                 
@@ -578,7 +932,7 @@
                                     </svg>
                                     <div>
                                         <p class="font-medium">Transport</p>
-                                        <p class="text-sm text-gray-600 dark:text-gray-400">RER C - 10 min de la post centrale </p>
+                                        <p class="text-sm text-gray-600 dark:text-gray-400">10 min de la poste centrale</p>
                                     </div>
                                 </div>
                                 
@@ -593,7 +947,9 @@
                                 </div>
                             </div>
                             
-                            <a href="https://maps.google.com/?q=Château+de+Versailles" target="_blank" rel="noopener" 
+                            <a href="https://maps.google.com/?q=Hotel+de+ville+Yaounde" 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
                                class="btn btn-primary inline-flex items-center space-x-2">
                                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
@@ -603,12 +959,12 @@
                         </div>
                         
                         <div class="card p-6">
-                            <div class="aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center mb-4">
+                            <div class="aspect-video bg-gradient-to-br from-accent/20 to-rose/20 rounded-lg flex items-center justify-center mb-4">
                                 <div class="text-center">
                                     <svg class="w-16 h-16 mx-auto text-gray-400 mb-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                                     </svg>
-                                    <p class="text-gray-500">Plan du château</p>
+                                    <p class="text-gray-500">Plan du lieu</p>
                                 </div>
                             </div>
                             <p class="text-center text-sm text-gray-600 dark:text-gray-400">
@@ -620,8 +976,8 @@
             </div>
         </section>
 
-        <!-- RSVP Section améliorée -->
-        <section id="rsvp" class="py-20 px-4 bg-white dark:bg-gray-900">
+        <!-- RSVP Section -->
+        <section id="rsvp" class="py-20 px-4 bg-gray-50 dark:bg-gray-800">
             <div class="container mx-auto">
                 <div class="text-center mb-16">
                     <h2 class="text-4xl md:text-5xl font-playfair text-primary dark:text-accent mb-6">
@@ -630,63 +986,67 @@
                     <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-4">
                         Votre réponse nous aiderait énormément dans l'organisation de notre grand jour
                     </p>
-                              <img src="/Desktop/t557/t2/espace DEV/invitation-mariage/t3.jpg" alt="Bouquet de mariée" class="mx-auto my-6" style="max-width: 100%; height: auto;">
+                    <!-- Image placeholder -->
+                    <div class="mx-auto my-6 w-full max-w-md h-64 bg-gradient-to-br from-accent to-rose/20 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500 dark:text-gray-400">Bouquet de mariée</span>
+                    </div>
                     <p class="text-lg text-accent font-medium">
-                        Merci de répondre avant le 1er mai 2024
+                        Merci de répondre avant le <time datetime="2024-05-01">1er mai 2024</time>
                     </p>
                 </div>
                 
                 <div class="max-w-2xl mx-auto">
-              <form id="rsvp-form" class="card p-8" name="rsvp" method="POST" action="https://formspree.io/f/myzjveyv"  novalidate>
-                     <input type="hidden" name="_next" value="https://Desktop/t557/t2/espace DEV/invitation-mariage/merci.html"> <!-- Champ caché pour redirection -->
-                       <input type="hidden" name="_subject" value="Nouvelle réponse RSVP - Marie & Pierre">
+                    <form id="rsvp-form" class="card p-8" method="POST" action="https://formspree.io/f/myzjveyv" novalidate>
+                        <input type="hidden" name="_next" value="https://marie-pierre-mariage.com/merci.html">
+                        <input type="hidden" name="_subject" value="Nouvelle réponse RSVP - Marie & Pierre">
                         <input type="hidden" name="_template" value="table">
-                        <input type="text" name="_gotcha" style="display:none">
-                       <div class="grid md:grid-cols-2 gap-6 mb-6">
-                             <div>
+                        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+                        
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div>
                                 <label for="firstName" class="block text-sm font-medium mb-2 flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                         <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                                     </svg>
                                     Prénom *
                                 </label>
                                 <input type="text" id="firstName" name="firstName" required 
-                                       class="form-input" aria-describedby="firstName-error">
+                                       class="form-input" aria-describedby="firstName-error" autocomplete="given-name">
                                 <div id="firstName-error" class="text-red-600 text-sm mt-1 hidden" role="alert"></div>
                             </div>
                             <div>
                                 <label for="lastName" class="block text-sm font-medium mb-2 flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                         <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                                     </svg>
                                     Nom *
                                 </label>
                                 <input type="text" id="lastName" name="lastName" required 
-                                       class="form-input" aria-describedby="lastName-error">
+                                       class="form-input" aria-describedby="lastName-error" autocomplete="family-name">
                                 <div id="lastName-error" class="text-red-600 text-sm mt-1 hidden" role="alert"></div>
                             </div>
                         </div>
                         
                         <div class="mb-6">
                             <label for="email" class="block text-sm font-medium mb-2 flex items-center gap-2">
-                                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                                 </svg>
                                 Email *
                             </label>
                             <input type="email" id="email" name="email" required 
-                                   class="form-input" aria-describedby="email-error">
+                                   class="form-input" aria-describedby="email-error" autocomplete="email">
                             <div id="email-error" class="text-red-600 text-sm mt-1 hidden" role="alert"></div>
                         </div>
                         
                         <fieldset class="mb-6">
                             <legend class="text-lg font-medium mb-4">Serez-vous présent(e) ? *</legend>
-                            <div class="space-y-3">
+                            <div class="space-y-3" role="radiogroup" aria-describedby="attendance-error">
                                 <label class="flex items-center space-x-3 cursor-pointer p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
                                     <input type="radio" name="attendance" value="yes" required 
                                            class="text-accent focus:ring-accent w-5 h-5">
                                     <span class="flex items-center gap-2">
-                                        <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                                         </svg>
                                         Oui, je serai présent(e) avec plaisir
@@ -696,7 +1056,7 @@
                                     <input type="radio" name="attendance" value="no" required 
                                            class="text-accent focus:ring-accent w-5 h-5">
                                     <span class="flex items-center gap-2">
-                                        <svg class="w-5 h-5 text-red-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <svg class="w-5 h-5 text-red-600" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                             <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
                                         </svg>
                                         Non, je ne pourrai malheureusement pas être présent(e)
@@ -709,7 +1069,7 @@
                         <div id="attendance-details" class="hidden space-y-6">
                             <div>
                                 <label for="guests" class="block text-sm font-medium mb-2 flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                         <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zM4 18v-4h3v-2c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v2h3v4H4z"/>
                                     </svg>
                                     Nombre d'accompagnants
@@ -724,7 +1084,7 @@
                             
                             <div>
                                 <label for="dietary" class="block text-sm font-medium mb-2 flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                         <path d="M18.06 22.99h1.66c.84 0 1.53-.64 1.63-1.46L23 5.05h-5V1h-1.97v4.05h-4.97l.3 2.34c1.71.47 3.31 1.32 4.27 2.26 1.44 1.42 2.43 2.89 2.43 5.29v8.05zM1 21.99V21h15.03v.99c0 .55-.45 1-1.01 1H2.01c-.56 0-1.01-.45-1.01-1z"/>
                                     </svg>
                                     Régimes alimentaires / Allergies
@@ -737,7 +1097,7 @@
                         
                         <div class="mb-6">
                             <label for="message" class="block text-sm font-medium mb-2 flex items-center gap-2">
-                                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
                                 </svg>
                                 Message pour les mariés (optionnel)
@@ -749,7 +1109,7 @@
                         
                         <button type="submit" id="submit-btn" 
                                 class="btn btn-primary w-full text-lg py-4 justify-center">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
                             </svg>
                             <span>Confirmer ma réponse</span>
@@ -762,17 +1122,17 @@
                             <div class="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-4">
                                 <a href="mailto:marie.pierre.mariage@email.com" 
                                    class="text-accent hover:text-primary transition-colors duration-200 inline-flex items-center gap-1">
-                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                         <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                                     </svg>
-                                    marie.pierre.mariage@email.com
+                                    danieldjapa20@gmail.com
                                 </a>
                                 <a href="tel:+237658090517" 
                                    class="text-accent hover:text-primary transition-colors duration-200 inline-flex items-center gap-1">
-                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                         <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                                     </svg>
-                                    658090517
+                                    +237 658 090 517
                                 </a>
                             </div>
                         </div>
@@ -781,8 +1141,8 @@
             </div>
         </section>
 
-        <!-- Informations Section (existante) -->
-        <section class="py-20 px-4 bg-gray-50 dark:bg-gray-800">
+        <!-- Informations Section -->
+        <section class="py-20 px-4 bg-white dark:bg-gray-900">
             <div class="container mx-auto">
                 <div class="text-center mb-16">
                     <h2 class="text-4xl md:text-5xl font-playfair text-primary dark:text-accent mb-6">
@@ -794,7 +1154,7 @@
                 </div>
                 
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="card p-6 text-center">
+                    <article class="card p-6 text-center">
                         <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                             <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
@@ -807,9 +1167,9 @@
                         <p class="text-sm text-gray-500">
                             Évitez le blanc (réservé à la mariée) et les couleurs trop vives.
                         </p>
-                    </div>
+                    </article>
                     
-                    <div class="card p-6 text-center">
+                    <article class="card p-6 text-center">
                         <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                             <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M7 13c1.66 0 3-1.34 3-3S8.66 7 7 7s-3 1.34-3 3 1.34 3 3 3zm12-6h-8v7H3V6H1v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4z"/>
@@ -820,11 +1180,11 @@
                             Hôtels partenaires avec tarifs préférentiels
                         </p>
                         <p class="text-sm text-gray-500">
-                            Code promo : MARIEPIERRE2024
+                            Code promo : MARIEPIERRE2025
                         </p>
-                    </div>
+                    </article>
                     
-                    <div class="card p-6 text-center">
+                    <article class="card p-6 text-center">
                         <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                             <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2z"/>
@@ -837,9 +1197,9 @@
                         <p class="text-sm text-gray-500">
                             Urne disponible le jour J
                         </p>
-                    </div>
+                    </article>
                     
-                    <div class="card p-6 text-center">
+                    <article class="card p-6 text-center">
                         <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                             <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M9 2l3 3h4c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2h3zm3 15c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5z"/>
@@ -852,9 +1212,9 @@
                         <p class="text-sm text-gray-500">
                             #MariePierreMarriage
                         </p>
-                    </div>
+                    </article>
                     
-                    <div class="card p-6 text-center">
+                    <article class="card p-6 text-center">
                         <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                             <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
@@ -867,9 +1227,9 @@
                         <p class="text-sm text-gray-500">
                             Animations et menu enfant prévus
                         </p>
-                    </div>
+                    </article>
                     
-                    <div class="card p-6 text-center">
+                    <article class="card p-6 text-center">
                         <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                             <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
@@ -879,32 +1239,34 @@
                         <p class="text-gray-600 dark:text-gray-400 mb-3">
                             Pour toute question
                         </p>
-                        <p class="text-sm text-gray-500"> danieldjapa20@gmail.com </p>
-                        <p> 658090517</p>
-                    </div>
+                        <p class="text-sm text-gray-500">danieldjapa20@gmail.com</p>
+                        <p class="text-sm text-gray-500">+237 658 090 517</p>
+                    </article>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Footer amélioré -->
+    <!-- Footer -->
     <footer class="bg-primary dark:bg-gray-900 text-white py-12">
         <div class="container mx-auto px-4 text-center">
             <div class="mb-6">
                 <h3 class="text-3xl font-playfair mb-2">Marie & Pierre</h3>
-                <p class="text-white/80 mb-1">15 Juillet 2025</p>
-                <p class="text-white/60">hotel de ville</p>
+                <p class="text-white/80 mb-1">
+                    <time datetime="2025-07-15">15 Juillet 2025</time>
+                </p>
+                <p class="text-white/60">Hôtel de ville de Yaoundé</p>
             </div>
             <div class="mb-6">
                 <div class="flex justify-center space-x-6">
                     <button id="footer-qr-btn" class="text-white/80 hover:text-white transition-colors duration-200 inline-flex items-center gap-2">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M3 11h8V3H3v8zm2-6h4v4H5V5zM3 21h8v-8H3v8zm2-6h4v4H5v-4zM13 3v8h8V3h-8zm6 6h-4V5h4v4z"/>
                         </svg>
                         Partager le site
                     </button>
                     <a href="#rsvp" class="text-white/80 hover:text-white transition-colors duration-200 inline-flex items-center gap-2">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
                         </svg>
                         RSVP
@@ -920,14 +1282,14 @@
         </div>
     </footer>
 
-    <!-- JavaScript optimisé et modulaire -->
+    <!-- JavaScript optimisé -->
     <script>
         (function() {
             'use strict';
             
-            // Configuration
+            // Configuration globale
             const CONFIG = {
-                weddingDate: new Date('2024-06-15T15:30:00').getTime(),
+                weddingDate: new Date('2025-07-15T15:30:00').getTime(),
                 apiEndpoints: {
                     qrCode: 'https://api.qrserver.com/v1/create-qr-code/'
                 },
@@ -955,16 +1317,17 @@
                 }
             };
             
-            // State management
-            const State = {
+            // État global de l'application
+            const AppState = {
                 isLoading: false,
                 formSubmitted: false,
                 countdownInterval: null,
                 darkMode: false,
-                reducedMotion: false
+                reducedMotion: false,
+                currentSection: 'accueil'
             };
             
-            // Utility functions
+            // Utilitaires
             const Utils = {
                 $(selector) {
                     return document.querySelector(selector);
@@ -975,19 +1338,25 @@
                 },
                 
                 addClass(element, className) {
-                    element?.classList?.add(className);
+                    if (element && className) {
+                        element.classList.add(className);
+                    }
                 },
                 
                 removeClass(element, className) {
-                    element?.classList?.remove(className);
+                    if (element && className) {
+                        element.classList.remove(className);
+                    }
                 },
                 
                 hasClass(element, className) {
-                    return element?.classList?.contains(className);
+                    return element?.classList?.contains(className) || false;
                 },
                 
                 toggleClass(element, className) {
-                    element?.classList?.toggle(className);
+                    if (element && className) {
+                        element.classList.toggle(className);
+                    }
                 },
                 
                 padZero(num) {
@@ -1008,62 +1377,114 @@
                 
                 throttle(func, limit) {
                     let inThrottle;
-                    return function() {
-                        const args = arguments;
-                        const context = this;
+                    return function(...args) {
                         if (!inThrottle) {
-                            func.apply(context, args);
+                            func.apply(this, args);
                             inThrottle = true;
                             setTimeout(() => inThrottle = false, limit);
                         }
-                    }
+                    };
+                },
+                
+                // Custom modal dialogs pour remplacer alert/confirm/prompt
+                showAlert(message, type = 'info') {
+                    Toast.show(message, type);
+                },
+                
+                showConfirmDialog(message, onConfirm) {
+                    const modal = document.createElement('div');
+                    modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50';
+                    modal.innerHTML = `
+                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg max-w-sm w-full mx-4">
+                            <p class="text-gray-700 dark:text-gray-300 mb-4">${message}</p>
+                            <div class="flex justify-end space-x-3">
+                                <button class="cancel-btn px-4 py-2 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded">Annuler</button>
+                                <button class="confirm-btn px-4 py-2 bg-red-500 text-white hover:bg-red-600 rounded">Confirmer</button>
+                            </div>
+                        </div>
+                    `;
+                    
+                    const cancelBtn = modal.querySelector('.cancel-btn');
+                    const confirmBtn = modal.querySelector('.confirm-btn');
+                    
+                    cancelBtn.addEventListener('click', () => {
+                        document.body.removeChild(modal);
+                    });
+                    
+                    confirmBtn.addEventListener('click', () => {
+                        document.body.removeChild(modal);
+                        onConfirm();
+                    });
+                    
+                    document.body.appendChild(modal);
+                    confirmBtn.focus();
                 }
             };
             
-            // Dark mode management
+            // Gestion du mode sombre
             const DarkMode = {
                 init() {
                     try {
-                        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                        // Détecter la préférence système
+                        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                        
+                        if (prefersDark) {
                             Utils.addClass(document.documentElement, 'dark');
-                            State.darkMode = true;
+                            AppState.darkMode = true;
                         }
                         
-                        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+                        // Écouter les changements
+                        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+                        mediaQuery.addEventListener('change', (e) => {
                             if (e.matches) {
                                 Utils.addClass(document.documentElement, 'dark');
-                                State.darkMode = true;
+                                AppState.darkMode = true;
                             } else {
                                 Utils.removeClass(document.documentElement, 'dark');
-                                State.darkMode = false;
+                                AppState.darkMode = false;
                             }
                         });
-                    } catch (e) {
-                        console.log('Dark mode detection not supported');
+                    } catch (error) {
+                        console.warn('Dark mode detection not supported:', error);
                     }
                 }
             };
             
-            // Reduced motion management
+            // Gestion du mouvement réduit
             const ReducedMotion = {
                 init() {
                     try {
-                        if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                        const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                        
+                        if (prefersReducedMotion) {
                             Utils.addClass(document.body, 'reduced-motion');
-                            State.reducedMotion = true;
+                            AppState.reducedMotion = true;
                         }
-                    } catch (e) {
-                        console.log('Reduced motion detection not supported');
+                        
+                        // Écouter les changements
+                        const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+                        mediaQuery.addEventListener('change', (e) => {
+                            if (e.matches) {
+                                Utils.addClass(document.body, 'reduced-motion');
+                                AppState.reducedMotion = true;
+                            } else {
+                                Utils.removeClass(document.body, 'reduced-motion');
+                                AppState.reducedMotion = false;
+                            }
+                        });
+                    } catch (error) {
+                        console.warn('Reduced motion detection not supported:', error);
                     }
                 }
             };
             
-            // Loading management
+            // Gestion du chargement
             const LoadingManager = {
                 hide() {
                     const loader = Utils.$(CONFIG.selectors.loadingIndicator);
                     if (loader) {
                         loader.style.opacity = '0';
+                        loader.setAttribute('aria-hidden', 'true');
                         setTimeout(() => {
                             loader.style.display = 'none';
                         }, 300);
@@ -1071,7 +1492,7 @@
                 }
             };
             
-            // Toast notifications
+            // Système de notifications toast
             const Toast = {
                 show(message, type = 'info', duration = 5000) {
                     const container = Utils.$(CONFIG.selectors.toastContainer);
@@ -1079,31 +1500,35 @@
                     
                     const toast = document.createElement('div');
                     toast.className = `toast ${type}`;
+                    toast.setAttribute('role', 'alert');
+                    toast.setAttribute('aria-live', 'polite');
                     toast.textContent = message;
                     
                     container.appendChild(toast);
                     
-                    // Trigger reflow for animation
-                    toast.offsetHeight;
-                    
+                    // Trigger animation
                     requestAnimationFrame(() => {
                         Utils.addClass(toast, 'show');
                     });
                     
+                    // Auto remove
                     setTimeout(() => {
                         Utils.removeClass(toast, 'show');
                         setTimeout(() => {
-                            container.removeChild(toast);
+                            if (container.contains(toast)) {
+                                container.removeChild(toast);
+                            }
                         }, 300);
                     }, duration);
                 }
             };
             
-            // Navigation management
+            // Navigation
             const Navigation = {
                 init() {
                     this.setupMobileMenu();
                     this.setupSmoothScrolling();
+                    this.setupActiveSection();
                 },
                 
                 setupMobileMenu() {
@@ -1123,6 +1548,14 @@
                             mobileMenuBtn.setAttribute('aria-expanded', 'false');
                         }
                     });
+                    
+                    // Fermer le menu au clic extérieur
+                    document.addEventListener('click', (e) => {
+                        if (!mobileMenuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+                            Utils.addClass(mobileMenu, 'hidden');
+                            mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                        }
+                    });
                 },
                 
                 setupSmoothScrolling() {
@@ -1135,7 +1568,7 @@
                             const target = Utils.$(targetId);
                             
                             if (target) {
-                                // Close mobile menu
+                                // Fermer le menu mobile
                                 const mobileMenu = Utils.$(CONFIG.selectors.mobileMenu);
                                 const mobileMenuBtn = Utils.$(CONFIG.selectors.mobileMenuBtn);
                                 
@@ -1144,10 +1577,10 @@
                                     mobileMenuBtn?.setAttribute('aria-expanded', 'false');
                                 }
                                 
-                                // Smooth scroll
+                                // Scroll fluide
                                 const targetTop = target.offsetTop - 80;
                                 
-                                if (State.reducedMotion) {
+                                if (AppState.reducedMotion) {
                                     window.scrollTo(0, targetTop);
                                 } else {
                                     window.scrollTo({
@@ -1158,10 +1591,42 @@
                             }
                         });
                     });
+                },
+                
+                setupActiveSection() {
+                    const sections = Utils.$$('section[id]');
+                    const navLinks = Utils.$$('nav a[href^="#"]');
+                    
+                    const updateActiveSection = Utils.throttle(() => {
+                        let current = '';
+                        const scrollPosition = window.scrollY + 100;
+                        
+                        sections.forEach(section => {
+                            const sectionTop = section.offsetTop;
+                            const sectionHeight = section.offsetHeight;
+                            
+                            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                                current = section.getAttribute('id');
+                            }
+                        });
+                        
+                        if (current !== AppState.currentSection) {
+                            AppState.currentSection = current;
+                            
+                            navLinks.forEach(link => {
+                                Utils.removeClass(link, 'active');
+                                if (link.getAttribute('href') === `#${current}`) {
+                                    Utils.addClass(link, 'active');
+                                }
+                            });
+                        }
+                    }, 100);
+                    
+                    window.addEventListener('scroll', updateActiveSection);
                 }
             };
             
-            // Countdown timer
+            // Compte à rebours
             const Countdown = {
                 init() {
                     this.elements = {
@@ -1171,10 +1636,19 @@
                         seconds: Utils.$(CONFIG.selectors.countdownElements.seconds)
                     };
                     
-                    if (!this.elements.days) return;
+                    // Vérifier que les éléments existent
+                    if (!this.elements.days) {
+                        console.warn('Countdown elements not found');
+                        return;
+                    }
                     
-                    this.update();
-                    State.countdownInterval = setInterval(() => this.update(), 1000);
+                    try {
+                        this.update();
+                        AppState.countdownInterval = setInterval(() => this.update(), 1000);
+                    } catch (error) {
+                        console.error('Countdown initialization failed:', error);
+                        this.showFallback();
+                    }
                 },
                 
                 update() {
@@ -1195,8 +1669,9 @@
                         } else {
                             this.showWeddingDay();
                         }
-                    } catch (e) {
-                        console.error('Countdown error:', e);
+                    } catch (error) {
+                        console.error('Countdown update error:', error);
+                        this.showFallback();
                     }
                 },
                 
@@ -1205,18 +1680,30 @@
                     if (countdownEl) {
                         countdownEl.innerHTML = `
                             <div class="col-span-4 text-center">
-                                <div class="text-2xl font-bold animate-bounce-subtle">C'est aujourd'hui !</div>
+                                <div class="text-2xl font-bold animate-bounce-subtle">C'est aujourd'hui ! 🎉</div>
                             </div>
                         `;
                     }
                     
-                    if (State.countdownInterval) {
-                        clearInterval(State.countdownInterval);
+                    if (AppState.countdownInterval) {
+                        clearInterval(AppState.countdownInterval);
+                        AppState.countdownInterval = null;
+                    }
+                },
+                
+                showFallback() {
+                    const countdownEl = Utils.$('#countdown');
+                    if (countdownEl) {
+                        countdownEl.innerHTML = `
+                            <div class="col-span-4 text-center">
+                                <div class="text-xl">Mariage le 15 Juillet 2025</div>
+                            </div>
+                        `;
                     }
                 }
             };
             
-            // QR Code modal
+            // Modal QR Code
             const QRModal = {
                 init() {
                     this.modal = Utils.$(CONFIG.selectors.qrModal);
@@ -1225,7 +1712,7 @@
                     this.showBtns = [
                         Utils.$(CONFIG.selectors.showQrBtn),
                         Utils.$(CONFIG.selectors.footerQrBtn)
-                    ];
+                    ].filter(Boolean);
                     this.closeBtn = Utils.$(CONFIG.selectors.closeQrModal);
                     
                     if (!this.modal) return;
@@ -1235,22 +1722,26 @@
                 },
                 
                 setupEventListeners() {
-                    // Show buttons
+                    // Boutons d'ouverture
                     this.showBtns.forEach(btn => {
-                        btn?.addEventListener('click', () => this.show());
+                        if (btn) {
+                            btn.addEventListener('click', () => this.show());
+                        }
                     });
                     
-                    // Close button
-                    this.closeBtn?.addEventListener('click', () => this.hide());
+                    // Bouton de fermeture
+                    if (this.closeBtn) {
+                        this.closeBtn.addEventListener('click', () => this.hide());
+                    }
                     
-                    // Click outside to close
+                    // Clic extérieur pour fermer
                     this.modal.addEventListener('click', (e) => {
                         if (e.target === this.modal) {
                             this.hide();
                         }
                     });
                     
-                    // Escape key to close
+                    // Échap pour fermer
                     document.addEventListener('keydown', (e) => {
                         if (e.key === 'Escape' && Utils.hasClass(this.modal, 'active')) {
                             this.hide();
@@ -1259,15 +1750,22 @@
                 },
                 
                 generateQRCode() {
-                    const websiteUrl = window.location.href;
-                    const qrCodeUrl = `${CONFIG.apiEndpoints.qrCode}?size=250x250&data=${encodeURIComponent(websiteUrl)}`;
-                    
-                    if (this.qrCodeImg) {
-                        this.qrCodeImg.src = qrCodeUrl;
-                    }
-                    
-                    if (this.websiteUrlEl) {
-                        this.websiteUrlEl.textContent = websiteUrl;
+                    try {
+                        const websiteUrl = window.location.href;
+                        const qrCodeUrl = `${CONFIG.apiEndpoints.qrCode}?size=250x250&data=${encodeURIComponent(websiteUrl)}&bgcolor=FFFFFF&color=000000`;
+                        
+                        if (this.qrCodeImg) {
+                            this.qrCodeImg.src = qrCodeUrl;
+                            this.qrCodeImg.addEventListener('error', () => {
+                                this.qrCodeImg.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgZmlsbD0iI2YzZjRmNiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiI+UVIgQ29kZSBub24gZGlzcG9uaWJsZTwvdGV4dD48L3N2Zz4=';
+                            });
+                        }
+                        
+                        if (this.websiteUrlEl) {
+                            this.websiteUrlEl.textContent = websiteUrl;
+                        }
+                    } catch (error) {
+                        console.error('QR Code generation failed:', error);
                     }
                 },
                 
@@ -1277,7 +1775,9 @@
                     
                     // Focus management
                     const firstFocusable = this.modal.querySelector('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
-                    firstFocusable?.focus();
+                    if (firstFocusable) {
+                        firstFocusable.focus();
+                    }
                 },
                 
                 hide() {
@@ -1286,7 +1786,7 @@
                 }
             };
             
-            // Form management
+            // Gestionnaire de formulaire
             const FormManager = {
                 init() {
                     this.form = Utils.$(CONFIG.selectors.rsvpForm);
@@ -1300,7 +1800,7 @@
                 },
                 
                 setupEventListeners() {
-                    // Attendance change
+                    // Changement de présence
                     this.attendanceInputs.forEach(input => {
                         input.addEventListener('change', () => {
                             if (input.value === 'yes') {
@@ -1311,15 +1811,22 @@
                         });
                     });
                     
-                    // Form submission
+                    // Soumission du formulaire
                     this.form.addEventListener('submit', (e) => {
                         e.preventDefault();
                         this.handleSubmit();
                     });
+                    
+                    // Validation en temps réel
+                    const inputs = this.form.querySelectorAll('input[required], select[required], textarea[required]');
+                    inputs.forEach(input => {
+                        input.addEventListener('blur', () => this.validateField(input));
+                        input.addEventListener('input', () => this.clearFieldError(input));
+                    });
                 },
                 
                 async handleSubmit() {
-                    if (State.isLoading) return;
+                    if (AppState.isLoading) return;
                     
                     const errors = this.validateForm();
                     this.showFormErrors(errors);
@@ -1336,6 +1843,7 @@
                     const errors = {};
                     const formData = new FormData(this.form);
                     
+                    // Validation des champs requis
                     const firstName = formData.get('firstName')?.trim();
                     const lastName = formData.get('lastName')?.trim();
                     const email = formData.get('email')?.trim();
@@ -1343,16 +1851,20 @@
                     
                     if (!firstName) {
                         errors.firstName = 'Le prénom est requis';
+                    } else if (firstName.length < 2) {
+                        errors.firstName = 'Le prénom doit contenir au moins 2 caractères';
                     }
                     
                     if (!lastName) {
                         errors.lastName = 'Le nom est requis';
+                    } else if (lastName.length < 2) {
+                        errors.lastName = 'Le nom doit contenir au moins 2 caractères';
                     }
                     
                     if (!email) {
                         errors.email = 'L\'email est requis';
                     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-                        errors.email = 'Email invalide';
+                        errors.email = 'Format d\'email invalide';
                     }
                     
                     if (!attendance) {
@@ -1362,157 +1874,269 @@
                     return errors;
                 },
                 
+                validateField(field) {
+                    const errors = {};
+                    const value = field.value.trim();
+                    const fieldName = field.name;
+                    
+                    switch (fieldName) {
+                        case 'firstName':
+                        case 'lastName':
+                            if (!value) {
+                                errors[fieldName] = `Le ${fieldName === 'firstName' ? 'prénom' : 'nom'} est requis`;
+                            } else if (value.length < 2) {
+                                errors[fieldName] = `Le ${fieldName === 'firstName' ? 'prénom' : 'nom'} doit contenir au moins 2 caractères`;
+                            }
+                            break;
+                        case 'email':
+                            if (!value) {
+                                errors.email = 'L\'email est requis';
+                            } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
+                                errors.email = 'Format d\'email invalide';
+                            }
+                            break;
+                    }
+                    
+                    if (errors[fieldName]) {
+                        this.showFieldError(fieldName, errors[fieldName]);
+                    } else {
+                        this.clearFieldError(field);
+                    }
+                },
+                
                 showFormErrors(errors) {
-                    // Clear previous errors
-                    Utils.$$('.text-red-600').forEach(errorEl => {
+                    // Effacer les erreurs précédentes
+                    Utils.$$('.text-red-600[id$="-error"]').forEach(errorEl => {
                         Utils.addClass(errorEl, 'hidden');
                         errorEl.textContent = '';
                     });
                     
-                    // Show new errors
+                    // Afficher les nouvelles erreurs
                     Object.entries(errors).forEach(([field, message]) => {
-                        const errorEl = Utils.$(`#${field}-error`);
-                        if (errorEl) {
-                            errorEl.textContent = message;
-                            Utils.removeClass(errorEl, 'hidden');
-                        }
+                        this.showFieldError(field, message);
                     });
+                },
+                
+                showFieldError(fieldName, message) {
+                    const errorEl = Utils.$(`#${fieldName}-error`);
+                    if (errorEl) {
+                        errorEl.textContent = message;
+                        Utils.removeClass(errorEl, 'hidden');
+                    }
+                },
+                
+                clearFieldError(field) {
+                    const fieldName = typeof field === 'string' ? field : field.name;
+                    const errorEl = Utils.$(`#${fieldName}-error`);
+                    if (errorEl) {
+                        Utils.addClass(errorEl, 'hidden');
+                        errorEl.textContent = '';
+                    }
                 },
                 
                 focusFirstError(errors) {
                     const firstErrorField = Object.keys(errors)[0];
-                    const fieldEl = Utils.$(`#${firstErrorField}`);
-                    fieldEl?.focus();
+                    const fieldEl = Utils.$(`#${firstErrorField}`) || Utils.$(`input[name="${firstErrorField}"]`);
+                    if (fieldEl) {
+                        fieldEl.focus();
+                        fieldEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
                 },
                 
-async submitForm() {
-    State.isLoading = true;
-    const originalText = this.submitBtn.innerHTML;
-    
-    this.submitBtn.innerHTML = `
-        <div class="loading"></div>
-        <span>Envoi en cours...</span>
-    `;
-    this.submitBtn.disabled = true;
-    
-    try {
-        const formData = new FormData(this.form);
-        
-        // Envoyer les données à Formspree
-        const response = await fetch(this.form.action, {
-            method: 'POST',
-            body: formData,
-            headers: {
-                'Accept': 'application/json'
-            }
-        });
-        
-        if (response.ok) {
-            this.handleSubmissionSuccess();
-        } else {
-            const errorData = await response.json();
-            throw new Error(errorData.error || 'Erreur lors de la soumission');
-        }
-        
-    } catch (error) {
-        console.error('RSVP submission error:', error);
-        this.handleSubmissionError(error);
-    } finally {
-        State.isLoading = false;
-        this.submitBtn.innerHTML = originalText;
-        this.submitBtn.disabled = false;
-    }
-}
+                async submitForm() {
+                    AppState.isLoading = true;
+                    const originalText = this.submitBtn.innerHTML;
+                    
+                    // Afficher l'état de chargement
+                    this.submitBtn.innerHTML = `
+                        <div class="loading"></div>
+                        <span>Envoi en cours...</span>
+                    `;
+                    this.submitBtn.disabled = true;
+                    
+                    try {
+                        const formData = new FormData(this.form);
+                        
+                        const response = await fetch(this.form.action, {
+                            method: 'POST',
+                            body: formData,
+                            headers: {
+                                'Accept': 'application/json'
+                            }
+                        });
+                        
+                        if (response.ok) {
+                            this.handleSubmissionSuccess();
+                        } else {
+                            const errorData = await response.json().catch(() => ({}));
+                            throw new Error(errorData.error || `Erreur ${response.status}: ${response.statusText}`);
+                        }
+                        
+                    } catch (error) {
+                        console.error('RSVP submission error:', error);
+                        this.handleSubmissionError(error);
+                    } finally {
+                        AppState.isLoading = false;
+                        this.submitBtn.innerHTML = originalText;
+                        this.submitBtn.disabled = false;
+                    }
+                },
+                
                 handleSubmissionSuccess() {
-                    Toast.show('Merci ! Votre réponse a été enregistrée avec succès.', 'success');
+                    Toast.show('🎉 Merci ! Votre réponse a été enregistrée avec succès.', 'success', 7000);
                     this.form.reset();
                     Utils.addClass(this.attendanceDetails, 'hidden');
-                    State.formSubmitted = true;
+                    AppState.formSubmitted = true;
+                    
+                    // Scroll vers le haut du formulaire
+                    this.form.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 },
                 
-              handleSubmissionError(error) {
-    let message = "Erreur lors de l'envoi. Veuillez réessayer.";
-    
-    if (error.message.includes('valid email')) {
-        message = "Veuillez entrer une adresse email valide";
-    }
-    
-    Toast.show(message, 'error');
-}
+                handleSubmissionError(error) {
+                    let message = "❌ Erreur lors de l'envoi. Veuillez réessayer.";
+                    
+                    if (error.message.includes('email')) {
+                        message = "📧 Veuillez entrer une adresse email valide";
+                    } else if (error.message.includes('400')) {
+                        message = "⚠️ Données invalides. Vérifiez vos informations.";
+                    } else if (error.message.includes('429')) {
+                        message = "⏱️ Trop de tentatives. Attendez quelques minutes.";
+                    } else if (error.message.includes('NetworkError') || error.message.includes('Failed to fetch')) {
+                        message = "🌐 Problème de connexion. Vérifiez votre réseau.";
+                    }
+                    
+                    Toast.show(message, 'error', 8000);
+                }
             };
             
-            // Performance monitoring
+            // Monitoring des performances
             const PerformanceMonitor = {
                 init() {
-                    if ('PerformanceObserver' in window) {
+                    if (typeof PerformanceObserver !== 'undefined') {
                         this.observeMetrics();
                     }
+                    
+                    this.logLoadTimes();
                 },
                 
                 observeMetrics() {
-                    // Observe Core Web Vitals
                     try {
+                        // Observer les Core Web Vitals
                         const observer = new PerformanceObserver((list) => {
                             list.getEntries().forEach((entry) => {
-                                console.log(`${entry.name}: ${entry.value}`);
+                                if (entry.entryType === 'navigation') {
+                                    console.log(`Page Load Time: ${entry.loadEventEnd - entry.fetchStart}ms`);
+                                } else if (entry.entryType === 'paint') {
+                                    console.log(`${entry.name}: ${entry.startTime}ms`);
+                                }
                             });
                         });
                         
-                        observer.observe({ entryTypes: ['measure', 'navigation', 'paint'] });
-                    } catch (e) {
-                        console.log('Performance monitoring not supported');
+                        observer.observe({ entryTypes: ['navigation', 'paint'] });
+                    } catch (error) {
+                        console.warn('Performance monitoring not supported:', error);
                     }
+                },
+                
+                logLoadTimes() {
+                    window.addEventListener('load', () => {
+                        setTimeout(() => {
+                            const navigation = performance.getEntriesByType('navigation')[0];
+                            if (navigation) {
+                                console.log('Performance metrics:', {
+                                    'DNS Lookup': navigation.domainLookupEnd - navigation.domainLookupStart,
+                                    'TCP Connection': navigation.connectEnd - navigation.connectStart,
+                                    'Request': navigation.responseStart - navigation.requestStart,
+                                    'Response': navigation.responseEnd - navigation.responseStart,
+                                    'DOM Processing': navigation.domComplete - navigation.domLoading,
+                                    'Total Load Time': navigation.loadEventEnd - navigation.fetchStart
+                                });
+                            }
+                        }, 0);
+                    });
                 }
             };
-        
-        // Main application initialization
-const App = {
-            async init() {
-                try {
-                    // Initialize core features
-                    DarkMode.init();
-                    ReducedMotion.init();
-                    PerformanceMonitor.init();
-                    
-                    // Initialize UI components
-                    Navigation.init();
-                    Countdown.init();
-                    QRModal.init();
-                    FormManager.init();
-                    
-                    // Hide loader after initialization
-                    setTimeout(() => LoadingManager.hide(), 1000);
-                    
-                    console.log('Wedding app initialized successfully');
-                    
-                } catch (error) {
-                    console.error('Error initializing app:', error);
-                    LoadingManager.hide();
-                }
-            },
             
-            destroy() {
-                // Cleanup
-                if (State.countdownInterval) {
-                    clearInterval(State.countdownInterval);
+            // Application principale
+            const WeddingApp = {
+                async init() {
+                    try {
+                        console.log('🎊 Initializing Wedding App...');
+                        
+                        // Initialiser les fonctionnalités de base
+                        DarkMode.init();
+                        ReducedMotion.init();
+                        PerformanceMonitor.init();
+                        
+                        // Initialiser les composants UI
+                        Navigation.init();
+                        Countdown.init();
+                        QRModal.init();
+                        FormManager.init();
+                        
+                        // Masquer le loader après l'initialisation
+                        setTimeout(() => {
+                            LoadingManager.hide();
+                        }, Math.max(1000, 500)); // Au moins 1s pour l'UX
+                        
+                        console.log('✅ Wedding app initialized successfully');
+                        
+                        // Prélcharger les images critiques en arrière-plan
+                        this.preloadCriticalAssets();
+                        
+                    } catch (error) {
+                        console.error('❌ Error initializing wedding app:', error);
+                        LoadingManager.hide();
+                        Toast.show('Erreur lors du chargement. Veuillez actualiser la page.', 'error');
+                    }
+                },
+                
+                preloadCriticalAssets() {
+                    // Preloader les images importantes en arrière-plan
+                    const criticalImages = [
+                        // Ajoutez ici les URLs de vos vraies images
+                        // './assets/images/hero-bg.jpg',
+                        // './assets/images/couple-photo.jpg'
+                    ];
+                    
+                    criticalImages.forEach(src => {
+                        const link = document.createElement('link');
+                        link.rel = 'preload';
+                        link.as = 'image';
+                        link.href = src;
+                        document.head.appendChild(link);
+                    });
+                },
+                
+                destroy() {
+                    // Nettoyage lors de la destruction
+                    console.log('🧹 Cleaning up Wedding App...');
+                    
+                    if (AppState.countdownInterval) {
+                        clearInterval(AppState.countdownInterval);
+                        AppState.countdownInterval = null;
+                    }
+                    
+                    // Supprimer les event listeners globaux si nécessaire
+                    // (les event listeners sur les éléments du DOM sont automatiquement nettoyés)
                 }
+            };
+            
+            // Initialisation de l'application
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', () => WeddingApp.init());
+            } else {
+                WeddingApp.init();
             }
-        };
-        
-        // Initialize when DOM is ready
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', () => App.init());
-        } else {
-            App.init();
-        }
-        
-        // Cleanup on page unload
-        window.addEventListener('beforeunload', () => App.destroy());
-        
-        // Expose App for debugging
-        window.WeddingApp = App;
-        
-    })();
+            
+            // Nettoyage lors du déchargement
+            window.addEventListener('beforeunload', () => WeddingApp.destroy());
+            
+            // Exposer l'app pour le debugging
+            window.WeddingApp = WeddingApp;
+            window.AppState = AppState;
+            
+        })();
     </script>
 </body>
 </html>
